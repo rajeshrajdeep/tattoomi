@@ -1,140 +1,55 @@
+/* app/globals.css */
+
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #f5f5f5;
-
-  --muted: #a1a1aa;
-  --border: #27272a;
-
-  --accent: #ffffff;
-  --accent-foreground: #000000;
+  --background: #ffffff;
+  --foreground: #171717;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-
-  --color-muted: var(--muted);
-  --color-border: var(--border);
-
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-/* ------------------------------
-   Base
------------------------------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
 
 * {
   box-sizing: border-box;
-}
-
-html {
   scroll-behavior: smooth;
 }
 
+.fancyFont {
+  font-family: var(--font-varela-round);
+  ;
+}
+
 body {
-  margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-poppins-font), Arial, Helvetica, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-button,
-a {
-  -webkit-tap-highlight-color: transparent;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ------------------------------
-   Selection
------------------------------- */
-
-::selection {
-  background: #ffffff;
-  color: #000000;
-}
-
-/* ------------------------------
-   Scrollbar
------------------------------- */
 
 ::-webkit-scrollbar {
-  width: 8px;
+  display: none;
 }
 
-::-webkit-scrollbar-track {
-  background: #0a0a0a;
+html {
+  scrollbar-width: none;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #3f3f46;
-  border-radius: 999px;
+body {
+  -ms-overflow-style: none;
+  overflow-x: hidden;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #71717a;
-}
-
-/* ------------------------------
-   Typography
------------------------------- */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  font-weight: 600;
-  letter-spacing: -0.03em;
-}
-
-p {
-  margin: 0;
-}
-
-/* ------------------------------
-   Focus
------------------------------- */
-
-:focus-visible {
-  outline: 2px solid #ffffff;
-  outline-offset: 4px;
-}
-
-/* ------------------------------
-   Reduced Motion
------------------------------- */
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+button {
+  cursor: pointer;
 }
