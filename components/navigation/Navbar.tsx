@@ -17,7 +17,7 @@ const linkStyles = "hover:text-rose-600 transition-all ease-in duration-150 focu
 
 export const Navbar = () => {
   return (
-    <header>
+    <header className="relative z-50 p-0 m-0">
       <nav
         aria-label="Main navigation"
         className="hidden sm:flex sticky top-0 z-50 justify-between items-center max-w-7xl mx-auto py-5 bg-background"

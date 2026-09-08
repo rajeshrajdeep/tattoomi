@@ -4,6 +4,7 @@ import { Poppins, Varela_Round } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/navigation/Navbar";
+import { LocalBusinessSchema } from "@/components/seo/LocalBusinessSchema";
 
 const poppinsFont = Poppins({
   variable: "--font-poppins-font",
@@ -25,9 +26,16 @@ export const metadata: Metadata = {
   keywords: [
     "tattoo studio Greater Kailash",
     "tattoo shop GK2",
+    "tattoo shop GK",
+    "tattoo",
+    "tattoo studio in m block",
+    "tattoo studio near me",
+    "tattoo in gk2",
+    "tattoo in gk",
     "tattoo artist M Block Market",
     "piercing studio Delhi",
     "TATTOOMI",
+    "tattoomi",
   ],
   authors: [{ name: "TATTOOMI Tattoo Studio" }],
   openGraph: {
@@ -75,6 +83,7 @@ export default function RootLayout({
       className={`${poppinsFont.variable} ${varelaRoundFont.variable} min-h-svh min-w-svw sm:min-h-screen sm:min-w-screen antialiased`}
     >
       <body className="min-h-full min-w-full flex flex-col">
+        <LocalBusinessSchema />
         <Navbar />
         {children}
       </body>
