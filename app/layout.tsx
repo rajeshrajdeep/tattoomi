@@ -28,6 +28,8 @@ export const metadata: Metadata = {
 
   keywords: [
     "tattoo studio in Greater Kailash 2",
+    "tattoo studio near me",
+    "tattoo studio near my location",
     "tattoo studio in GK2",
     "tattoo studio in Delhi",
     "best tattoo studio in Delhi",
