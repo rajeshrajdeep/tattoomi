@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "TATTOOMI Tattoo Studio",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/logo.jpeg",
         width: 1200,
         height: 630,
         alt: "TATTOOMI Tattoo Studio",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "TATTOOMI Tattoo Studio | Greater Kailash 2, Delhi",
     description:
       "Custom tattoos & piercing in Greater Kailash 2, M Block Market, New Delhi.",
-    images: ["/og-image.jpg"],
+    images: ["/logo.jpeg"],
   },
   robots: {
     index: true,
