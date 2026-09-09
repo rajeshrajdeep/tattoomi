@@ -26,6 +26,7 @@ export const ContactForm = () => {
     return (
         <form onSubmit={handleSubmit} className="w-full sm:max-w-lg flex flex-col gap-4">
             <div className="flex flex-col sm:flex-row gap-4">
+                <label htmlFor="name" className="sr-only">Your name</label>
                 <input
                     type="text"
                     name="name"
@@ -36,6 +37,7 @@ export const ContactForm = () => {
                     onChange={(e) => setName(e.target.value)}
                     className="flex-1 bg-transparent border border-neutral-600 text-neutral-200 placeholder-neutral-400 p-4 rounded-md focus:outline-none focus:border-rose-600"
                 />
+                <label htmlFor="email" className="sr-only">Your e-mail</label>
                 <input
                     type="email"
                     name="email"
@@ -47,6 +49,7 @@ export const ContactForm = () => {
                     className="flex-1 bg-transparent border border-neutral-600 text-neutral-200 placeholder-neutral-400 p-4 rounded-md focus:outline-none focus:border-rose-600"
                 />
             </div>
+            <label htmlFor="message" className="sr-only">Your message</label>
             <textarea
                 name="message"
                 id="message"

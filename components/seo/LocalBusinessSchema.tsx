@@ -48,6 +48,12 @@ export const LocalBusinessSchema = () => {
       ratingValue: "5.0",
       reviewCount: "28",
     },
+    areaServed: [
+      { "@type": "City", name: "New Delhi" },
+      { "@type": "Place", name: "Greater Kailash 2" },
+      { "@type": "Place", name: "Greater Kailash" },
+      { "@type": "Place", name: "M Block Market" },
+    ],
   };
 
   return (

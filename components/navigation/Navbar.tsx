@@ -34,10 +34,10 @@ export const Navbar = () => {
         </Link>
 
         <ul className="flex space-x-8">
-          <li><Link href="#about" className={linkStyles}>about us</Link></li>
-          <li><Link href="#portfolio" className={linkStyles}>portfolio</Link></li>
-          <li><Link href="#team" className={linkStyles}>team</Link></li>
-          <li><Link href="#contact" className={linkStyles}>contact</Link></li>
+          <li><a href="#about" className={linkStyles}>about us</a></li>
+          <li><a href="#portfolio" className={linkStyles}>portfolio</a></li>
+          <li><a href="#team" className={linkStyles}>team</a></li>
+          <li><a href="#contact" className={linkStyles}>contact</a></li>
           <li><Link href="/blog" className={linkStyles}>blog</Link></li>
           <li className="relative">
             <details>
