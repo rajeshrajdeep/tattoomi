@@ -58,14 +58,14 @@ export const MobileNav = () => {
         className={`sm:hidden fixed inset-0 z-40 flex flex-col py-5 justify-around items-center w-svw h-svh bg-black transition-transform ease-out duration-300 delay-100 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <ul className="flex flex-col space-y-8 text-center">
-          <li><Link href="#about" className={linkStyles}>about us</Link></li>
-          <li><Link href="#portfolio" className={linkStyles}>portfolio</Link></li>
-          <li><Link href="#team" className={linkStyles}>team</Link></li>
-          <li><Link href="#contact" className={linkStyles}>contact</Link></li>
-          <li><Link href="/blog" className={linkStyles}>blog</Link></li>
-          <li><Link href="/process" className={linkStyles}>process</Link></li>
-          <li><Link href="/comingsoon" className={linkStyles}>coming soon</Link></li>
-          <li><Link href="/offers" className={linkStyles}>offers</Link></li>
+          <li onClick={openSideNav}><a href="#about" className={linkStyles}>about us</a></li>
+          <li onClick={openSideNav}><a href="#portfolio" className={linkStyles}>portfolio</a></li>
+          <li onClick={openSideNav}><a href="#team" className={linkStyles}>team</a></li>
+          <li onClick={openSideNav}><a href="#contact" className={linkStyles}>contact</a></li>
+          <li onClick={openSideNav}><Link href="/blog" className={linkStyles}>blog</Link></li>
+          <li onClick={openSideNav}><Link href="/process" className={linkStyles}>process</Link></li>
+          <li onClick={openSideNav}><Link href="/comingsoon" className={linkStyles}>coming soon</Link></li>
+          <li onClick={openSideNav}><Link href="/offers" className={linkStyles}>offers</Link></li>
         </ul>
 
         <ul className="flex space-x-5 pr-6">
