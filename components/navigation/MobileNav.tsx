@@ -60,12 +60,12 @@ export const MobileNav = () => {
         <ul className="flex flex-col space-y-8 text-center">
           <li onClick={openSideNav}><a href="#about" className={linkStyles}>about us</a></li>
           <li onClick={openSideNav}><a href="#portfolio" className={linkStyles}>portfolio</a></li>
-          <li onClick={openSideNav}><a href="#team" className={linkStyles}>team</a></li>
+          {/* <li onClick={openSideNav}><a href="#team" className={linkStyles}>team</a></li> */}
           <li onClick={openSideNav}><a href="#contact" className={linkStyles}>contact</a></li>
-          <li onClick={openSideNav}><Link href="/blog" className={linkStyles}>blog</Link></li>
+          {/* <li onClick={openSideNav}><Link href="/blog" className={linkStyles}>blog</Link></li>
           <li onClick={openSideNav}><Link href="/process" className={linkStyles}>process</Link></li>
           <li onClick={openSideNav}><Link href="/comingsoon" className={linkStyles}>coming soon</Link></li>
-          <li onClick={openSideNav}><Link href="/offers" className={linkStyles}>offers</Link></li>
+          <li onClick={openSideNav}><Link href="/offers" className={linkStyles}>offers</Link></li> */}
         </ul>
 
         <ul className="flex space-x-5 pr-6">

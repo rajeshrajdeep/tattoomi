@@ -36,10 +36,10 @@ export const Navbar = () => {
         <ul className="flex space-x-8">
           <li><a href="#about" className={linkStyles}>about us</a></li>
           <li><a href="#portfolio" className={linkStyles}>portfolio</a></li>
-          <li><a href="#team" className={linkStyles}>team</a></li>
+          {/* <li><a href="#team" className={linkStyles}>team</a></li> */}
           <li><a href="#contact" className={linkStyles}>contact</a></li>
-          <li><Link href="/blog" className={linkStyles}>blog</Link></li>
-          <li className="relative">
+          {/* <li><Link href="/blog" className={linkStyles}>blog</Link></li> */}
+          {/* <li className="relative">
             <details>
               <summary className={`${linkStyles} list-none cursor-pointer`}>features</summary>
               <ul className="absolute mt-2 bg-background flex-row space-y-2 p-5 rounded-lg shadow-lg">
@@ -48,7 +48,7 @@ export const Navbar = () => {
                 <li><Link href="/offers" className={linkStyles}>offers</Link></li>
               </ul>
             </details>
-          </li>
+          </li> */}
         </ul>
 
         <ul className="flex space-x-5 pr-6">
