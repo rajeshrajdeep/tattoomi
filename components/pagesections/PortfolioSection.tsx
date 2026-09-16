@@ -34,6 +34,7 @@ export const PortfolioSection = () => {
               src={work.src}
               alt={work.alt}
               fill
+              sizes="(max-width: 640px) 100vw, 33vw"
               className='object-cover'
             />
             <div className='absolute bottom-4 left-4 right-4 flex items-center justify-between bg-white/95 px-4 py-3 rounded-md'>

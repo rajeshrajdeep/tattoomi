@@ -29,7 +29,7 @@ export const Navbar = () => {
             src="/navlogo.png"
             alt="TATTOOMI Tattoo Studio Logo"
             priority
-            className="m-0 p-0"
+            className="w-18.75 h-18.75 m-0 p-0"
           />
         </Link>
 

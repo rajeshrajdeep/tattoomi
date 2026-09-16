@@ -35,7 +35,7 @@ export const AboutSection = () => {
                     height={600}
                     src="/aboutimage.jpg"
                     alt="Tattoo artist at work inside TATTOOMI studio, Greater Kailash 2"
-                    className='sm:flex-1'
+                    className='w-full h-auto sm:flex-1'
                 />
 
                 <div className='sm:flex-1 sm:flex sm:flex-col sm:gap-4'>
@@ -47,17 +47,17 @@ export const AboutSection = () => {
 
             <div className='flex flex-col sm:flex-row justify-center items-center sm:items-start gap-15 sm:gap-10 mt-10'>
                 <div className='flex flex-col justify-center items-center gap-4 text-center sm:max-w-xs'>
-                    <Image width={50} height={50} src="/pencilicon.jpg" alt="Custom tattoo design process" className='rounded-full' />
+                    <Image width={50} height={50} src="/pencilicon.jpg" alt="Custom tattoo design process" className='w-12.5 h-12.5 rounded-full' />
                     <h3 className='text-2xl font-bold'>Design</h3>
                     <p className='text-md opacity-75'>We start with a one-on-one consultation to sketch a design that&apos;s uniquely yours, refined until you&apos;re fully happy with it.</p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-4 text-center sm:max-w-xs'>
-                    <Image width={50} height={50} src="/machine.jpg" alt="Tattooing process at TATTOOMI studio" className='rounded-full' />
+                    <Image width={50} height={50} src="/machine.jpg" alt="Tattooing process at TATTOOMI studio" className='w-12.5 h-12.5 rounded-full' />
                     <h3 className='text-2xl font-bold'>Tattoo</h3>
                     <p className='text-md opacity-75'>Our artists bring the design to life with precision and care, using sterile equipment in a clean, comfortable studio.</p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-4 text-center sm:max-w-xs'>
-                    <Image width={50} height={50} src="/aftercare.jpg" alt="Tattoo aftercare guidance" className='rounded-full' />
+                    <Image width={50} height={50} src="/aftercare.jpg" alt="Tattoo aftercare guidance" className='w-12.5 h-12.5 rounded-full' />
                     <h3 className='text-2xl font-bold'>Aftercare</h3>
                     <p className='text-md opacity-75'>We guide you through healing with clear aftercare instructions, so your tattoo stays vibrant for years to come.</p>
                 </div>
