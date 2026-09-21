@@ -19,7 +19,7 @@ const varelaRoundFont = Varela_Round({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tattoomi.in"),
+  metadataBase: new URL("https://www.tattoomi.in"),
   title: "TATTOOMI Tattoo Studio | Greater Kailash 2, Delhi",
   description:
     "TATTOOMI is a tattoo and piercing studio in Greater Kailash 2, M Block Market, New Delhi. Custom tattoos, fine line, piercing & more. Book your appointment today.",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "TATTOOMI Tattoo Studio | Greater Kailash 2, Delhi",
     description:
       "Custom tattoos & piercing in Greater Kailash 2, M Block Market. Book your appointment today.",
-    url: "https://tattoomi.in",
+    url: "https://www.tattoomi.in",
     siteName: "TATTOOMI Tattoo Studio",
     images: [
       {
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://tattoomi.in",
+    canonical: "https://www.tattoomi.in",
   },
 };
 
