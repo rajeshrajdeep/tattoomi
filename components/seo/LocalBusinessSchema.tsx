@@ -5,9 +5,9 @@ export const LocalBusinessSchema = () => {
     "@context": "https://schema.org",
     "@type": "TattooParlor",
     name: "TATTOOMI Tattoo Studio",
-    image: "https://tattoomi.in/logo.jpeg",
-    "@id": "https://tattoomi.in",
-    url: "https://tattoomi.in",
+    image: "https://www.tattoomi.in/logo.jpeg",
+    "@id": "https://www.tattoomi.in",
+    url: "https://www.tattoomi.in",
     telephone: "+91-8218822812",
     email: "tattoomistudio@gmail.com",
     priceRange: "₹₹",
@@ -46,7 +46,7 @@ export const LocalBusinessSchema = () => {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "5.0",
-      reviewCount: "28",
+      reviewCount: "29",
     },
     areaServed: [
       { "@type": "City", name: "New Delhi" },
